@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#caja1{
+    background-color: #f4f4f4;
+    border: 3px green solid;
+    width: 620px;
+    height: 100px;
+    padding: 20px;
+    margin: 30px;
+}
+
+#caja2{
+    background-color: #f4f4f4;
+    border: 3px green solid;
+    width: 620px;
+    height: 100px;
+    padding: 20px;
+    margin: 30px;
+}

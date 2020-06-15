@@ -1,0 +1,23 @@
+
+
+.btn{
+    background-color: teal;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: block;
+
+}
+
+a{
+    width: 40px;
+}
+
+.btn:hover{
+    display: block;
+    background-color: tomato;
+    width: 200px;
+}

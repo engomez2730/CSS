@@ -1,0 +1,313 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: sans-serif;
+    line-height: 1.7em;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+h1,h2,h3{
+    padding-bottom: 20px;
+}
+
+p{
+    margin: 10px 0;
+}
+
+/* Paddding */
+
+.py-1{ padding:  10px 0;}
+.py-2{ padding:  20px 0;}
+.py-3{ padding:  20px 30px;}
+
+.clear{
+    clear: both;
+}
+
+.bg-dark{
+    background-color: #333;
+    color: white;
+
+}
+
+
+.container-navbar{
+    max-width: 1100px;
+    overflow: auto;
+    margin: auto;
+    padding: 0 20px;
+    
+}
+
+#navbar{
+    background-color: #333;
+    color: white;
+    overflow: auto;
+}
+
+#navbar a{
+    color: white;
+}
+
+#navbar h1{
+    float: left;
+    padding: 20px;
+}
+
+#navbar ul{
+    float: right;
+    list-style: none;
+}
+
+#navbar ul li{
+    float: left;
+    
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+}
+
+#navbar ul li a:hover, .current {
+  background-color: rgba(255, 99, 71, 0.87);
+
+}
+
+
+#showcase{
+    background: url("../img/imagenes.jpg") no-repeat center center/cover;
+    height: 500px;
+   
+}
+
+
+#showcase .showcase-content{
+    color: white;
+    text-align: center;
+    padding-top: 170px;
+    
+}
+
+#showcase .showcase-content h1{
+    font-size: 60px;
+    line-height: 1.2rem;
+}
+
+#showcase .showcase-content h1 span{
+    color: tomato;
+}
+
+.lead{
+    font-size: 20px;
+    width: 800px;
+    margin: auto;
+   padding: 20px;
+}
+
+.btn{
+    color: white;
+    background-color: black;
+    display: inline-block;
+    padding: 13px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 3px 10px 20px black;
+}
+
+/* About US  */
+
+#home-info{
+    height: 400px;
+
+}
+
+#home-info .img-info{
+    float: left;
+    width: 50%;
+    background: url('../img/imagen2.jpg') no-repeat center center/cover; 
+    min-height: 100%;
+
+}
+
+#home-info .text-info{
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+
+#home-info .text-info a{
+    margin-top: 20px;
+}
+
+
+.box{
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+    background-color: white;
+    border: 1px black solid;
+}
+
+
+/* About US */
+
+#about-container{
+    background-color: wheat;
+    height: 300px;
+}
+
+#about-container .about-left{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+    text-align: center;
+    overflow: auto;
+    padding-top: 40px;
+}
+
+#about-container .about-left h1{
+  font-size: 40px;
+}
+
+
+   
+
+#about-container .about-right{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-container .about-right img{
+    display: block;
+    width: 60%;
+    margin: auto;
+    border-radius: 50%;
+    
+}
+
+
+#testimonials{
+    height: 800px;
+    padding-top: 40px;
+    background: url("../img/cancha.jpg") no-repeat center center/cover;
+
+
+}
+
+#testimonials  h2{
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 40px;
+    color: rgba(255, 99, 71, 0.87);
+    text-shadow:  10px 2px 40px black;
+    
+}
+
+
+#testimonials .testimonio  h1{
+
+    font-size: 40px;
+    text-align: center;
+    margin: 40px;
+
+} 
+
+
+
+#testimonials .testimonio {
+
+    padding: 20px;
+    margin-bottom: 40px;
+    background-color: rgba(255, 99, 71, 0.87);
+    border-radius: 10px;
+    height: 160px;
+
+} 
+
+#testimonials .testimonio img{
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 30%;
+}
+
+/* contact us
+ */
+
+
+#contact-us h1{
+
+    font-size: 50px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+#contact-us .form-group{
+    padding: 5px 40px ;
+}
+
+#contact-us .form-group label{
+    display: block;
+    
+}
+
+#contact-us .form-group input, .form-group textarea{
+
+    width: 100%;
+    height: 40px;
+    
+}
+
+.form-group textarea{
+    height: 100px;
+}
+
+.btn.btn-contact {
+    padding: 20px 50px;
+    background-color: coral;
+    color: white;
+    border-radius: 10px;
+    margin-left: 43%;
+    margin-bottom: 20px;
+}
+
+.box-contact{
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+    background-color: #333;
+    border: 1px black solid;
+    color: white;
+}
+
+
+
+
+
+
+
+/*  footer */
+
+#footer{
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: blanchedalmond;
+   
+}

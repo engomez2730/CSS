@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+li{
+    display: inline;
+}
+
+li a{
+    margin-right: 60px;
+}
+
+.prueba{
+    position: absolute;
+    left: 400px;
+    width: 33%;
+    display: inline-block;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-top: 10px;
+    
+}
+
+img{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 40px;
+    top: 200px;
+}

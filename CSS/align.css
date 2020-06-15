@@ -1,0 +1,36 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.box{
+    background-color: #f4f4ff;
+    border: 2px teal solid;
+    padding: 10px;
+    margin-top: 10px;
+
+
+}
+
+.clear{
+    clear: both;
+}
+
+
+.container{
+    width: 900px;
+    margin: 40px auto;
+}
+
+ #box-2{
+    float: right;
+    width: 30%;
+}
+
+#box-3{
+    float: left;
+    width: 70%;
+} 
+ 

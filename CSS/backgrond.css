@@ -1,0 +1,35 @@
+
+
+#prueba1{
+    background-color: aqua;
+    border: 6px red solid;
+    margin: 15px;
+    border-top-right-radius: 60px;
+}
+
+#prueba2{
+    background-color: g;
+    border: 6px blue dashed;  
+    margin: 15px;   
+    border-radius: 40px;
+}
+
+#prueba3{
+    width: 600px;
+    height: 400px;
+    background: url(../img/backgrond.jfif); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    border: 6px blue groove; 
+    margin: 15px;
+}
+
+#prueba4{
+   
+    border: 6px blue ridge; 
+    margin: 15px;
+    background: url(../img/—Pngtree—social\ media\ button\ \ gradient_3643657.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
